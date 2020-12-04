@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
         //String myString = "Jack + Jill + Steve + Joll";
-        String river = "Mississippi";
+        String river = "MississippiMississippiMississippi";
         String riverPart = river.substring(4, 8);
 
         Pattern p = Pattern.compile("Mi(.*?)pi");
